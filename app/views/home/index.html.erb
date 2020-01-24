@@ -13,7 +13,13 @@
      </div>
      <%= image_tag post.image, class: 'main-image' %>
      <div class="description">
-       <%= post.description %>
+       <% post.description.to_s.split(' ').each do |word| %>
+        <% if word.start_with?('#') %>
+          <%= link_to word, search_path(query: word) %>
+        <% else %>
+          <%= word %>
+        <% end %>
+       <% end %>
      </div>
     </section>
   <% end %>
