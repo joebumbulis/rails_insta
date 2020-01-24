@@ -1,24 +1,3 @@
-# README
+# RoR Instagram Tutorial   
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Built following this [tutorial](https://medium.com/luanotes/build-instagram-by-ruby-on-rails-part-1-fef7837ee399) & [this](https://medium.com/luanotes/build-instagram-by-ruby-on-rails-part-2-d70b44f5c7e6)
